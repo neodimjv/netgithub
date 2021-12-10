@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ders5_KucukHarf {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Lütfen Bir harf giriniz  :");
 		char harf=scan.next().charAt(0);
