@@ -14,6 +14,7 @@ public class Not {
 		case 10: System.out.println("iki basamaklý en küçük sayý");			break;
 		case 100: System.out.println("3 basamaklý en küçük sayý");			break;
 		case 1000: System.out.println("4 basamaklý en küçük sayý");			break;
+		case 10000: System.out.println("4 basamaklý en küçük sayý");			break;
 		default: System.out.println("Ýþine bak");
 			break;
 		}
