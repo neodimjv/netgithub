@@ -22,7 +22,11 @@ public class Equals {
 		System.out.println(g.equals(e+f));
 		System.out.println(f.equals(e));
 		
-		
+		String ad="Neo";
+		String soyad="Geo";
+		String ad2="neo";
+		System.out.println(ad.equalsIgnoreCase(soyad));
+		System.out.println(ad.equalsIgnoreCase(ad2));
 		
 		
 		
