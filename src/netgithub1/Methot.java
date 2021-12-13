@@ -10,6 +10,7 @@ public class Methot{
         // kullaniciya us sorun
         // 2 yazarsa kareleri toplamini yapan method, 3 yazarsa kupler toplamini yapan method calissin
         
+		@SuppressWarnings("resource")
 		Scanner scan=new Scanner(System.in);
 		System.out.println("lütfen iki sayý giriniz");
 		int sayý1=scan.nextInt();
@@ -36,12 +37,14 @@ public class Methot{
 	}
 
 	private static void küp(int sayý1, int sayý2) {
+		@SuppressWarnings("unused")
 		int sayýlarýnküpü=(sayý1*sayý1*sayý1)+(sayý2*sayý2*sayý2);
 		System.out.println("Sayýlarýn küpünün toplamý   : "+ ((sayý1*sayý1*sayý1)+(sayý2*sayý2*sayý2)));
 		
 	}
 
 	private static void kare(int sayý1, int sayý2) {
+		@SuppressWarnings("unused")
 		int sayýlarýnKaresi=(sayý1*sayý1) + (sayý2*sayý2);
 		System.out.println("Sayýlarýn Karesinin Toplamý : " + ((sayý1*sayý1) + (sayý2*sayý2)));
 		
