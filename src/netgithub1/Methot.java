@@ -19,7 +19,7 @@ public class Methot{
 		System.out.println("girilen sayilarin kareler toplamini istiyorsani 2 "
                 + "\nkupler toplamini istiyorsaniz 3'e basin");
         int secim=scan.nextInt();
-		
+		int c=5;
 		
         switch (secim) {
 		case 2:
