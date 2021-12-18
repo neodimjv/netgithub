@@ -27,7 +27,7 @@ public class Equals {
 		String ad2="neo";
 		System.out.println(ad.equalsIgnoreCase(soyad));
 		System.out.println(ad.equalsIgnoreCase(ad2));
-		
+		System.out.println(ad);
 		
 		
 
