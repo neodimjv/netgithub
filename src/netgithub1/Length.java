@@ -7,18 +7,19 @@ public class Length {
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner scan=new Scanner(System.in);
-		System.out.println("Harf sayısı için kelime giriniz");
+		System.out.println("Harf sayÃ½sÃ½ iÃ§in kelime giriniz");
 		String ad=scan.nextLine();
 		
 		
 		String isim="Nedim";
 		System.out.println(isim.length());
-		String soyad="Görmez";
+		String soyad="GÃ¶rmez";
 		System.out.println(soyad.length());
 		System.out.println(isim.length()+" "+isim);
 				
-		System.out.println(ad.length() + " Girilen Harf Sayısı");
+		System.out.println(ad.length() + " Girilen Harf SayÃ½sÃ½");
 
+		System.out.println(" Girilen Harf SayÃ½sÃ½");
 
 	}
 
